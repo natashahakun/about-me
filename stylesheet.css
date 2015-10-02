@@ -94,3 +94,24 @@ a {
   padding: 0 1%;
 }
 
+/********media-queries********/
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-name {
+    font-size: 3em;
+  }
+
+  .intro-section, .where-from-section, .about-me-section {
+    width: 80%;
+    padding-left: 10%;
+  }
+}
+
+
+
+
+
+
