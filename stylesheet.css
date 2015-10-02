@@ -45,7 +45,7 @@ a:hover {
 
 .nav-links {
   float: right;
-  width: 40%;
+  width: 475px;
   list-style-type: none;
 }
 
@@ -92,7 +92,7 @@ a:hover {
 
 /********sections********/
 
-#intro-section, #where-from-section, #about-me-section {
+#portfolio-section, #about-me-section {
   padding-left: 25%;
   display: inline-block;
   width: 50%;
@@ -100,18 +100,14 @@ a:hover {
   font-family: "Avenir", "Helvetica", sans-serif;
 }
 
-#intro-section {
+#portfolio-section {
   padding-top: 5%;
 }
 
-#where-from-section, #about-me-section {
-  padding-top: 3%;
-}
-
 #about-me-section {
+  padding-top: 3%;
   padding-bottom: 3%;
 }
-
 
 /********footer********/
 
@@ -146,9 +142,13 @@ a:hover {
     font-size: 3em;
   }
 
-  .intro-section, .where-from-section, .about-me-section {
+  .portfolio-section, .about-me-section {
     width: 80%;
     padding-left: 10%;
+  }
+
+  .nav-links {
+    width: 100%;
   }
 }
 
