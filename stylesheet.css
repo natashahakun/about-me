@@ -90,9 +90,13 @@ a:hover {
     text-shadow: 2px 2px gray;
 }
 
-/********sections********/
+/********portfolio-section********/
 
-#portfolio-section, #about-me-section {
+#introduction {
+  margin-top: 5%;
+}
+
+#introduction, #portfolio-section, #about-me-section {
   padding-left: 25%;
   display: inline-block;
   width: 50%;
@@ -104,9 +108,45 @@ a:hover {
   padding-top: 5%;
 }
 
+#portfolio-section h2 {
+  color: black;
+}
+
+/********projects********/
+
+.projects-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.projects-container a {
+  font-size: 1em;
+  color: black;
+}
+
+.first-project-img {
+  width: 50%;
+  display: inline-block;
+  border: 6px solid #A4A4A4;
+}
+
+.first-project-img img {
+  width: 100%;
+  display: inline-block;
+}
+
+.first-project-text {
+  width: 45%;
+  display: inline-block;
+  padding-bottom: 5%;
+  float: right;
+}
+
+/********about-me-section********/
+
 #about-me-section {
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 /********footer********/
@@ -151,9 +191,4 @@ a:hover {
     width: 100%;
   }
 }
-
-
-
-
-
 
