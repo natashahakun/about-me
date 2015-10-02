@@ -5,6 +5,7 @@ body,header,nav,ul,h1,h2 {
 
 body {
   width: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -21,14 +22,50 @@ p, a {
 }
 
 a {
-  color: #FDCC45;
   text-decoration: none;
+}
+
+a:hover {
+  font-weight: 600;
+  cursor: pointer;
 }
 
 /********header********/
 
+.top-navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background-color: #A4A4A4;
+}
+
+.top-navigation > .content {
+  height: 40px;
+}
+
+.nav-links {
+  float: right;
+  width: 40%;
+  list-style-type: none;
+}
+
+.nav-links li {
+  float: left;
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 8%;
+  font-size: 16px;
+  font-family: "Avenir", "Helvetica", sans-serif;
+  color: white;
+}
+
+.nav-links a {
+  color: white;
+}
+
 .masthead {
   padding: 6em 0;
+  margin-top: 40px;
   background-image: url(images/sunflowers.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,7 +76,7 @@ a {
 .masthead-intro,
 .masthead-name {
   text-align: center;
-  font-family: "Meta Serif";
+  font-family: "Meta Serif", times;
 }
 
 .masthead-intro {
@@ -55,7 +92,7 @@ a {
 
 /********sections********/
 
-.intro-section, .where-from-section, .about-me-section {
+#intro-section, #where-from-section, #about-me-section {
   padding-left: 25%;
   display: inline-block;
   width: 50%;
@@ -63,27 +100,27 @@ a {
   font-family: "Avenir", "Helvetica", sans-serif;
 }
 
-.intro-section {
+#intro-section {
   padding-top: 5%;
 }
 
-.where-from-section, .about-me-section {
+#where-from-section, #about-me-section {
   padding-top: 3%;
 }
 
-.about-me-section {
+#about-me-section {
   padding-bottom: 3%;
 }
 
 
 /********footer********/
 
-.content-footer {
+#content-footer {
   display: inline-block;
   width: 100%;
   padding-top: 3%;
   padding-bottom: 4%;
-  background-color: gray;
+  background-color: #A4A4A4;
   color: white;
   text-align: center;
   font-family: "Avenir", "Helvetica", sans-serif;
@@ -92,6 +129,11 @@ a {
 .connect > li {
   display: inline;
   padding: 0 1%;
+  color: #FDCC45;
+}
+
+#content-footer a, .connect a {
+  color: #FDCC45;;
 }
 
 /********media-queries********/
