@@ -145,6 +145,10 @@ a:hover {
   float: right;
 }
 
+.project-text a {
+  color: #585858;
+}
+
 /********about-me-section********/
 
 #about-me-section {
