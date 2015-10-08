@@ -124,18 +124,18 @@ a:hover {
   color: black;
 }
 
-.first-project-img {
+.project-img {
   width: 50%;
   display: inline-block;
   border: 6px solid #A4A4A4;
 }
 
-.first-project-img img {
+.project-img img {
   width: 100%;
   display: inline-block;
 }
 
-.first-project-text {
+.project-text {
   width: 45%;
   display: inline-block;
   padding-bottom: 5%;
