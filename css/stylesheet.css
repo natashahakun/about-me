@@ -101,9 +101,9 @@ a:hover {
 }
 
 #introduction, #portfolio-section, #about-me-section {
-  padding-left: 25%;
+  padding-left: 15%;
   display: inline-block;
-  width: 50%;
+  width: 70%;
   text-align: justify;
   font-family: "Avenir", "Helvetica", sans-serif;
 }
@@ -136,7 +136,8 @@ a:hover {
 
 .project-img img {
   width: 100%;
-  min-width: 15em;
+  min-width: 332px;
+  min-height: 188px;
   display: inline-block;
   border: 6px solid #A4A4A4;
 }
@@ -146,6 +147,7 @@ a:hover {
   min-width: 15em;
   display: inline-block;
   padding-bottom: 5%;
+  margin-left: 2em;
   float: right;
 }
 
@@ -186,8 +188,8 @@ a:hover {
 /********media-queries********/
 @media only screen and (max-width: 1052px) {
   #introduction, #portfolio-section, #about-me-section {
-    width: 70%;
-    padding-left: 15%;
+    width: 84%;
+    padding-left: 8%;
   }
 }
 
@@ -196,12 +198,12 @@ a:hover {
   font-size: 1em;
   }
   #introduction, #portfolio-section, #about-me-section {
-    width: 80%;
-    padding-left: 15%;
+    width: 84%;
+    padding-left: 8%;
   }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 710px) {
   .nav-links {
     width: 70%;
   }
@@ -219,13 +221,13 @@ a:hover {
     margin-bottom: 20px;
   }
   .project-img {
-    width: 60%;
+    width: 80%;
     display: block;
     margin: 0 auto;
     float:none;
   }
   .project-text {
-    width: 60%;
+    width: 80%;
     display: block;
     padding-bottom: 5%;
     margin: 0 auto;
@@ -247,20 +249,25 @@ a:hover {
   p, a {
   font-size: 1em;
   }
-  .portfolio-section, .about-me-section {
+  #portfolio-section {
+    width: 100%;
+    padding-left: 2px;
+  }
+  #about-me-section {
     width: 90%;
-    padding-left: 10%;
+    padding-left: 5%;
   }
   .project {
     margin-bottom: 20px;
   }
   .project-img {
-    width: 70%;
+    width: 80%;
     display: block;
     margin: 0 auto;
+    float: none;
   }
   .project-text {
-    width: 70%;
+    width: 80%;
     display: block;
     padding-bottom: 5%;
     margin: 0 auto;
