@@ -233,6 +233,10 @@ a:hover {
     margin: 0 auto;
     float: none;
   }
+
+  .project-text h2 {
+    margin-top: 5px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -272,6 +276,9 @@ a:hover {
     padding-bottom: 5%;
     margin: 0 auto;
     float: none;
+  }
+  .project-text h2 {
+    margin-top: 5px;
   }
 }
 
