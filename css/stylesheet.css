@@ -72,6 +72,7 @@ a:hover {
   display: inline-block;
   width: 100%;
   height: 180px;
+  opacity: 0.8;
 }
 
 .masthead-intro,
@@ -115,7 +116,7 @@ a:hover {
 
 .projects-container {
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .projects-container a {
@@ -130,6 +131,7 @@ a:hover {
 .project-img {
   width: 50%;
   display: inline-block;
+  float: left;
 }
 
 .project-img img {
@@ -218,6 +220,7 @@ a:hover {
     width: 60%;
     display: block;
     margin: 0 auto;
+    float:none;
   }
   .project-text {
     width: 60%;
