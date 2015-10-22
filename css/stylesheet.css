@@ -136,12 +136,14 @@ a:hover {
 
 .project-img img {
   width: 100%;
+  min-width: 15em;
   display: inline-block;
   border: 6px solid #A4A4A4;
 }
 
 .project-text {
   width: 40%;
+  min-width: 15em;
   display: inline-block;
   padding-bottom: 5%;
   float: right;
@@ -194,7 +196,7 @@ a:hover {
   font-size: 1em;
   }
   #introduction, #portfolio-section, #about-me-section {
-    width: 70%;
+    width: 80%;
     padding-left: 15%;
   }
 }
