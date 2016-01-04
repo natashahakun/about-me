@@ -1,6 +1,7 @@
 body,header,nav,ul {
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 
 body {
@@ -30,19 +31,15 @@ a:hover {
 nav {
   position: fixed;
   width: 100%;
+  height: 40px;
   z-index: 9999;
   background-color: #A4A4A4;
-}
-
-.nav-links {
-  height: 40px;
 }
 
 .nav-links ul {
   width: 50%;
   float: right;
   text-align: right;
-  list-style-type: none;
 }
 
 .nav-links li {
@@ -56,13 +53,50 @@ nav {
   margin-right: 4%;
 }
 
-.nav-links a {
+.nav-links a, .dropdown a {
   color: white;
 }
 
-.nav-links a:hover {
+.nav-links a:hover, .dropdown a:hover {
   font-weight: 400;
   color: #FDCC45;
+}
+
+.dropdown {
+  width: 50%;
+  display: none;
+  position: relative;
+  float: right;
+  text-align: center;
+  font-family: "Avenir", "Helvetica", sans-serif;
+  cursor: pointer;
+}
+
+.dropdown:before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: 1em;
+  width: 20px;
+  height: 0.125em;
+  border-top: 0.375em double #000;
+  border-bottom: 0.125em solid #000;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #A4A4A4;
+  top: 40px;
+  font-size: 1.5em;
+}
+
+.dropdown-content li {
+  padding: 2%;
+}
+
+.dropdown-content a:not(:first-child) li {
+  border-top: 1px solid lightgrey;
 }
 
 .masthead {
@@ -92,13 +126,7 @@ nav {
   text-shadow: 2px 2px gray;
 }
 
-/********portfolio-section********/
-
-#introduction {
-  margin-top: 4%;
-  margin-bottom: 2%;
-  font-size: 1.25em;
-}
+/********all-sections********/
 
 #introduction, #portfolio-section, #about-me-section {
   padding-left: 15%;
@@ -106,13 +134,22 @@ nav {
   width: 70%;
   text-align: justify;
   font-family: "Avenir", "Helvetica", sans-serif;
+  padding-top: 2%;
 }
+
+/********introduction-section********/
+
+#introduction {
+  margin-top: 4%;
+  margin-bottom: 1%;
+  font-size: 1.25em;
+}
+
+/********portfolio-section********/
 
 #portfolio-section h2 {
   color: black;
 }
-
-/********portfolio-section-projects********/
 
 .projects-container {
   margin-top: 5%;
@@ -124,7 +161,7 @@ nav {
   color: black;
 }
 
-.project {
+.project:not(:last-child) {
   margin-bottom: 60px;
 }
 
@@ -208,9 +245,11 @@ nav {
 }
 
 @media only screen and (max-width: 710px) {
-  .nav-links ul {
-    width: 100%;
-    text-align: center;
+  .nav-links {
+    display: none;
+  }
+  .dropdown {
+    display: inline-block;
   }
   .masthead-name {
     font-size: 5em;
@@ -222,9 +261,6 @@ nav {
     width: 90%;
     padding-left: 5%;
   }
-  .project {
-    margin-bottom: 20px;
-  }
   .project-img {
     width: 80%;
     display: block;
@@ -234,11 +270,10 @@ nav {
   .project-text {
     width: 80%;
     display: block;
-    padding-bottom: 5%;
+    padding-bottom: 0;
     margin: 0 auto;
     float: none;
   }
-
   .project-text h2 {
     margin-top: 5px;
   }
@@ -258,24 +293,11 @@ nav {
     width: 90%;
     padding-left: 20px;
   }
-  .project {
-    margin-bottom: 20px;
-  }
   .project-img {
     width: 90%;
-    display: block;
-    margin: 0 auto;
-    float: none;
   }
   .project-text {
     width: 90%;
-    display: block;
-    padding-bottom: 5%;
-    margin: 0 auto;
-    float: none;
-  }
-  .project-text h2 {
-    margin-top: 5px;
   }
   #about-me-section {
     width: 90%;
