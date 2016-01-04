@@ -259,7 +259,7 @@ nav {
   }
   #introduction, #portfolio-section, #about-me-section {
     width: 90%;
-    padding-left: 5%;
+    padding-left: 3%;
   }
   .project-img {
     width: 80%;
@@ -291,7 +291,6 @@ nav {
   }
   #portfolio-section {
     width: 90%;
-    padding-left: 20px;
   }
   .project-img {
     width: 90%;
