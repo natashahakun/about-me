@@ -1,0 +1,73 @@
+/********all-sections********/
+
+#introduction, #portfolio-section, #about-me-section {
+  padding-left: 15%;
+  display: inline-block;
+  width: 70%;
+  text-align: justify;
+  font-family: "Avenir", "Helvetica", sans-serif;
+  padding-top: 2%;
+}
+
+/********introduction-section********/
+
+#introduction {
+  margin-top: 4%;
+  margin-bottom: 1%;
+  font-size: 1.25em;
+}
+
+/********portfolio-section********/
+
+#portfolio-section h2 {
+  color: black;
+}
+
+.projects-container {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.projects-container a {
+  font-size: 1em;
+  color: black;
+}
+
+.project:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.project-img {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+.project-img img {
+  width: 100%;
+  min-height: 188px;
+  display: inline-block;
+  border: 6px solid #A4A4A4;
+}
+
+.project-text {
+  width: 40%;
+  display: inline-block;
+  padding-bottom: 5%;
+  margin-left: 8%;
+  float: right;
+}
+
+.project-text a {
+  color: #585858;
+}
+
+/********about-me-section********/
+
+#about-me-section {
+  margin-bottom: 5%;
+}
+
+#about-me-section h3 {
+  color: #FDCC45;
+}
