@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1052px) {
+  #introduction, #portfolio-section, #about-me-section {
+    width: 84%;
+    padding-left: 8%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .nav-links ul {
+    width: 70%;
+  }
+  p, a {
+    font-size: 1em;
+  }
+  #introduction, #portfolio-section, #about-me-section {
+    width: 84%;
+    padding-left: 8%;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .nav-links {
+    display: none;
+  }
+  .dropdown {
+    display: inline-block;
+  }
+  .masthead-name {
+    font-size: 5em;
+  }
+  p, a {
+    font-size: 1em;
+  }
+  #introduction, #portfolio-section, #about-me-section {
+    width: 90%;
+    padding-left: 3%;
+  }
+  .project-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    float:none;
+  }
+  .project-text {
+    width: 80%;
+    display: block;
+    padding-bottom: 0;
+    margin: 0 auto;
+    float: none;
+  }
+  .project-text h2 {
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-name {
+    font-size: 3em;
+  }
+  p, a {
+    font-size: 1em;
+  }
+  #portfolio-section {
+    width: 90%;
+  }
+  .project-img {
+    width: 90%;
+  }
+  .project-text {
+    width: 90%;
+  }
+  #about-me-section {
+    width: 90%;
+    padding-left: 5%;
+  }
+}

@@ -7,14 +7,15 @@
   color: #FFF;
   text-align: center;
   font-family: "Avenir", "Helvetica", sans-serif;
+
+  li {
+    display: inline;
+    padding: 0 1%;
+    color: #FDCC45;
+  }
+
+  a {
+    color: #FDCC45;;
+  }
 }
 
-#content-footer li {
-  display: inline;
-  padding: 0 1%;
-  color: #FDCC45;
-}
-
-#content-footer a {
-  color: #FDCC45;;
-}

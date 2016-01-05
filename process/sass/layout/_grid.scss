@@ -26,48 +26,44 @@
 .projects-container {
   margin-top: 5%;
   margin-bottom: 3%;
-}
 
-.projects-container a {
-  font-size: 1em;
-  color: black;
-}
+  .project:not(:last-child) {
+    margin-bottom: 60px;
+  }
 
-.project:not(:last-child) {
-  margin-bottom: 60px;
-}
+  .project-img {
+    width: 50%;
+    display: inline-block;
+    float: left;
 
-.project-img {
-  width: 50%;
-  display: inline-block;
-  float: left;
-}
+    img {
+      width: 100%;
+      min-height: 188px;
+      display: inline-block;
+      border: 6px solid #A4A4A4;
+    }
+  }
 
-.project-img img {
-  width: 100%;
-  min-height: 188px;
-  display: inline-block;
-  border: 6px solid #A4A4A4;
-}
+  .project-text {
+    width: 40%;
+    display: inline-block;
+    padding-bottom: 5%;
+    margin-left: 8%;
+    float: right;
 
-.project-text {
-  width: 40%;
-  display: inline-block;
-  padding-bottom: 5%;
-  margin-left: 8%;
-  float: right;
-}
-
-.project-text a {
-  color: #585858;
+    a {
+      color: #585858;
+      font-size: 1em;
+    }
+  }
 }
 
 /********about-me-section********/
 
 #about-me-section {
   margin-bottom: 5%;
-}
 
-#about-me-section h3 {
-  color: #FDCC45;
+  h3 {
+    color: #FDCC45;
+  }
 }
