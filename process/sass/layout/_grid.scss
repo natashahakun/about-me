@@ -54,6 +54,10 @@
       color: $gray-link;
       font-size: 1em;
     }
+
+    a:hover {
+      color: $black;
+    }
   }
 }
 
