@@ -3,19 +3,18 @@
   display: inline-block;
   padding-top: 3%;
   padding-bottom: 4%;
-  background-color: #A4A4A4;
-  color: #FFF;
+  background-color: $gray-main;
+  color: $white;
   text-align: center;
-  font-family: "Avenir", "Helvetica", sans-serif;
 
   li {
     display: inline;
     padding: 0 1%;
-    color: #FDCC45;
+    color: $yellow;
   }
 
   a {
-    color: #FDCC45;;
+    color: $yellow;;
   }
 }
 

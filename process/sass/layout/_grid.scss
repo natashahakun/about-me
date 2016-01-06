@@ -5,7 +5,6 @@
   display: inline-block;
   width: 70%;
   text-align: justify;
-  font-family: "Avenir", "Helvetica", sans-serif;
   padding-top: 2%;
 }
 
@@ -20,7 +19,7 @@
 /********portfolio-section********/
 
 #portfolio-section h2 {
-  color: black;
+  color: $black;
 }
 
 .projects-container {
@@ -40,7 +39,7 @@
       width: 100%;
       min-height: 188px;
       display: inline-block;
-      border: 6px solid #A4A4A4;
+      border: 6px solid $gray-main;
     }
   }
 
@@ -52,7 +51,7 @@
     float: right;
 
     a {
-      color: #585858;
+      color: $gray-link;
       font-size: 1em;
     }
   }
@@ -64,6 +63,6 @@
   margin-bottom: 5%;
 
   h3 {
-    color: #FDCC45;
+    color: $yellow;
   }
 }

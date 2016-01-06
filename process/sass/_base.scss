@@ -7,21 +7,22 @@ body,header,nav,ul {
 body {
   width: 100%;
   -webkit-font-smoothing: antialiased;
-}
+  font-family: $font-main;
 
-h2 {
-  font-size: 2em;
-}
+  h2 {
+    font-size: 2em;
+  }
 
-p, a {
-  font-size: 1.1em;
-}
+  p, a {
+    font-size: 1.1em;
+  }
 
-a {
-  text-decoration: none;
-}
+  a {
+    text-decoration: none;
+  }
 
-a:hover {
-  font-weight: 500;
-  cursor: pointer;
+  a:hover {
+    font-weight: 500;
+    cursor: pointer;
+  }
 }
